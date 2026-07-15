@@ -23,6 +23,7 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [🚀 Boilerplate & SaaS Starter Kit](#-boilerplate--saas-starter-kit)
 - [🗄️ Database & ORM](#️-database--orm)
 - [🖼️ Hosting Gambar (Image Hosting)](#️-hosting-gambar-image-hosting)
+- [💬 WhatsApp & Chatbot](#-whatsapp--chatbot)
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
 - [📈 Analytics & Marketing](#-analytics--marketing)
 - [📝 Blogging & CMS](#-blogging--cms)
@@ -59,6 +60,16 @@ Buat Imgur-mu sendiri. Simpan gambar tanpa batas *bandwidth*.
 | [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) | TuChuang/Image Hosting modern. Bisa simpan file ke R2, Telegram, S3, atau WebDAV. Tidak membatasi ukuran atau format file. |
 | [imgUU](https://github.com/yestool/imgUU) | Aplikasi *upload* gambar gratis berbasis Cloudflare D1 dan R2. Terintegrasi dengan GitHub Login untuk panel adminnya. |
 | [cf-image-hosting](https://github.com/ifyour/cf-image-hosting) | Hosting gambar menggunakan layanan Telegraph (Telegram) di-*proxy* lewat Cloudflare. Gratis tanpa batas (Catatan: Hati-hati dengan privasi gambar). |
+
+## 💬 WhatsApp & Chatbot
+Jalankan *webhook* WhatsApp Business API yang stabil, tahan *traffic* tinggi, dan 100% *serverless* tanpa perlu menyewa VPS.
+
+| Nama | Deskripsi |
+|------|-----------|
+| [whatsapp-mcp-server](https://github.com/spirit122/whatsapp-mcp-server) | Server MCP untuk WhatsApp Business Cloud API. Memberikan 35+ alat bagi AI Agent Anda untuk membaca obrolan, membalas, dan mengirim *template message*. |
+| [workers-whatsapp-transcription](https://github.com/jkpe/workers-whatsapp-transcription) | Mengubah *Voice Note* (Pesan Suara) WhatsApp menjadi teks secara otomatis menggunakan model Whisper via Workers AI, lalu membalas pesannya dengan hasil transkripsi. |
+| [whatsapp-auth-service](https://github.com/leolicona/whatsapp-auth-service) | Layanan login *passwordless* atau OTP (One Time Password) menggunakan WhatsApp alih-alih SMS biasa. Berbasis Hono dan database D1. |
+| [chat-ya-wam](https://github.com/leolicona/chat-ya-wam) | Template *webhook* ringan (berbasis Hono) untuk membangun asisten AI otomatis via WhatsApp Cloud API. |
 
 ## 📧 Email Sementara & Routing
 Layanan untuk menerima atau meneruskan email, sangat berguna untuk fitur validasi (OTP) akun dummy atau CRM sederhana.
