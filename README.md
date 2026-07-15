@@ -101,11 +101,14 @@ Alat bantu operasional *digital advertising*, automasi media sosial (pengganti M
 | Nama | Deskripsi |
 |------|-----------|
 | [inapp-escape](https://github.com/deepthix/inapp-escape) | Paksa tautan di bio TikTok/Instagram terbuka di *browser* asli pengunjung (Chrome/Safari), bukan di dalam *in-app browser* yang sering bermasalah. |
+| [ig-harness-oss](https://github.com/Shudesu/ig-harness-oss) | Alternatif *open-source* ManyChat. Otomatisasi DM Instagram untuk membalas komentar spesifik dan *follow-loop*, sepenuhnya *serverless*. |
+| [ig_gallery_worker](https://github.com/lia-07/ig_gallery_worker) | *Script background* (Cron) yang otomatis memperpanjang *token* Instagram API. Wajib dipakai jika Anda menampilkan *feed* IG klien di situs web agar tidak putus tiap 60 hari. |
+| [tracklay](https://github.com/matheusmaiberg/tracklay) | *Proxy tracking* (1st-party) untuk Facebook Pixel, Google Analytics, dan GTM. Menyembunyikan skrip pelacak agar lolos dari *Ad-Blocker* (iOS/Safari). |
 | [tiktok-ai-agent](https://github.com/stivenrosales/tiktok-ai-agent) | Asisten AI (Gemini) yang berjalan di Workers untuk membalas *Direct Message* (DM) TikTok secara otomatis, terintegrasi dengan ManyChat. |
 | [yt-deeplink](https://github.com/Adam-s-Builder-Club/yt-deeplink) | Pengganti *Smartlink* berbayar. Arahkan pengunjung dari TikTok/Instagram langsung ke aplikasi asli (contoh: YouTube) alih-alih membuka versi *web*. |
-| [ig-autodm-worker](https://github.com/aldoprianandi/ig-autodm-worker) | Alternatif gratis *ManyChat*. Balas komentar Instagram otomatis via DM menggunakan Official Meta API yang berjalan sepenuhnya di *serverless* Workers. |
+| [defuddle](https://github.com/thieung/defuddle) | Alat untuk membaca tautan utas (thread) X/Twitter dan mengubahnya menjadi *Markdown* bersih. Sangat berguna sebagai *pipeline* bagi AI Agen Anda. |
+| [tweets-to-discord](https://github.com/MattIPv4/tweets-to-discord) | Skrip *Cron* yang akan menyalin (*mirroring*) setiap cuitan (Tweet) baru Anda ke *channel* Discord komunitas. |
 | [capi-gateway-template](https://github.com/pfranklinn/capi-gateway-template) | *Server-side Tracking* (CAPI Gateway) untuk Meta Ads dan Google Ads. Solusi menembus blokir Pixel di iOS/AdBlocker dengan mengirim *event* langsung dari *server* Edge. |
-| [cf-meta-leads-doi-demo](https://github.com/shreyanshmishra1113/cf-meta-leads-doi-demo) | Menangkap *webhook* dari **Meta Lead Ads**, memproses *Double Opt-In* email, dan menyimpannya menggunakan Cloudflare KV/Locks. |
 | [open-ads-report](https://github.com/clawnify/open-ads-report) | Dasbor analitik *cross-platform* (Meta + Google Ads) *open-source*. Menyediakan API JSON agar AI Agent Anda bisa memantau dan memberikan saran terkait performa iklan. |
 | [media-parser-proxy](https://github.com/pekaboo/media-parser-proxy) | API *Proxy* (berbasis Worker) untuk mengekstrak dan mengunduh video tanpa *watermark* dari platform seperti TikTok, Douyin, dan Bilibili. |
 
