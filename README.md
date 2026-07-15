@@ -102,6 +102,10 @@ Kumpulan alat untuk *networking*, manajemen sistem, dan produktivitas harian.
 | [ternssh](https://github.com/HaradaKashiwa/ternssh) | Klien SSH berbasis Web yang berjalan di atas Cloudflare Workers. Remot VPS Anda langsung dari *browser* dari mana saja. |
 | [cf-manager](https://github.com/hefy2027/cf-manager) | Dasbor *all-in-one* untuk manajemen banyak akun Cloudflare sekaligus (DNS, Workers, D1, R2, AI). |
 | [ip-api](https://github.com/ccbikai/ip-api) | API super sederhana untuk cek IP Address pengunjung beserta geolokasi-nya menggunakan header bawaan Cloudflare. |
+| [cloudflare-block-bad-bot-ruleset](https://github.com/SukkaW/cloudflare-block-bad-bot-ruleset) | Koleksi aturan *Firewall* (WAF) siap pakai untuk memblokir *crawler/scraper* nakal yang menghabiskan bandwidth situs Anda. |
+| [docker-cloudflare-ddns](https://github.com/oznu/docker-cloudflare-ddns) | Docker *image* untuk menyambungkan IP internet rumah (Indihome/Biznet yang IP-nya dinamis) ke domain Cloudflare secara otomatis (DDNS). |
+| [cloudflare-workers-basic-auth](https://github.com/dommmel/cloudflare-workers-basic-auth) | Beri perlindungan *password* (Basic Auth) pada situs statis apa pun hanya bermodal skrip Worker sederhana. |
+| [airtable-proxy-worker](https://github.com/portable-cto/airtable-proxy-worker) | Proxy aman untuk menggunakan Airtable sebagai database *backend* tanpa membocorkan API Key Airtable Anda ke publik. |
 
 ---
 
@@ -112,4 +116,4 @@ Jika Anda menemukan *tools* menarik lainnya atau sedang membangun *side project*
 Lisensi MIT - [Ridlo Abelian](https://github.com/ridloabelian)
 
 ---
-*Kredit: Diadaptasi dan dikurasi dari [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) dan [Ezeafk/awesome-cloudflare-ai](https://github.com/Ezeafk/awesome-cloudflare-ai) dengan penyesuaian untuk ekosistem developer Indonesia.*
+*Kredit: Diadaptasi dan dikurasi dari [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare), [Ezeafk/awesome-cloudflare-ai](https://github.com/Ezeafk/awesome-cloudflare-ai), dan [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) dengan penyesuaian untuk ekosistem developer Indonesia.*
