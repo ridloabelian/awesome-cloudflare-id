@@ -26,6 +26,7 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [💬 WhatsApp & Chatbot](#-whatsapp--chatbot)
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
 - [📈 Analytics & Marketing](#-analytics--marketing)
+- [📱 Meta & Social Media Automation](#-meta--social-media-automation)
 - [📝 Blogging & CMS](#-blogging--cms)
 - [🤖 AI & Agen (MCP)](#-ai--agen-mcp)
 - [🔗 Shortlink & Pastebin](#-shortlink--pastebin)
@@ -89,6 +90,16 @@ Ganti langganan *tools* pemasaran yang mahal (seperti Mailchimp atau Plausible) 
 | [analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare) | Analitik web *open-source* (pengganti Google Analytics) yang menjaga privasi pengunjung. Berbasis Hono dan D1 lengkap dengan antarmuka dasbor. |
 | [relay](https://github.com/YuriCrystal/relay) | *Link shortener* khusus pemasaran dengan analitik klik, *A/B split*, penargetan geolokasi, dan integrasi FB Pixel / GA4 untuk *retargeting* tanpa *cookie*. Berjalan di D1. |
 | [cloudflare-workers-async-google-analytics](https://github.com/SukkaW/cloudflare-workers-async-google-analytics) | Percepat *loading* situs web Anda dengan memindahkan eksekusi skrip pelacakan Google Analytics ke sisi *server* (di Cloudflare Worker) alih-alih di *browser* pengunjung. |
+
+## 📱 Meta & Social Media Automation
+Alat bantu operasional *digital advertising* dan automasi media sosial (pengganti ManyChat / Zapier).
+
+| Nama | Deskripsi |
+|------|-----------|
+| [ig-autodm-worker](https://github.com/aldoprianandi/ig-autodm-worker) | Alternatif gratis *ManyChat*. Balas komentar Instagram otomatis via DM menggunakan Official Meta API yang berjalan sepenuhnya di *serverless* Workers. |
+| [capi-gateway-template](https://github.com/pfranklinn/capi-gateway-template) | *Server-side Tracking* (CAPI Gateway) untuk Meta Ads dan Google Ads. Solusi menembus blokir Pixel di iOS/AdBlocker dengan mengirim *event* langsung dari *server* Edge. |
+| [cf-meta-leads-doi-demo](https://github.com/shreyanshmishra1113/cf-meta-leads-doi-demo) | Menangkap *webhook* dari **Meta Lead Ads**, memproses *Double Opt-In* email, dan menyimpannya menggunakan Cloudflare KV/Locks. |
+| [open-ads-report](https://github.com/clawnify/open-ads-report) | Dasbor analitik *cross-platform* (Meta + Google Ads) *open-source*. Menyediakan API JSON agar AI Agent Anda bisa memantau dan memberikan saran terkait performa iklan. |
 
 ## 📝 Blogging & CMS
 Alternatif gratis untuk WordPress yang lari secepat kilat di infrastruktur Edge.
