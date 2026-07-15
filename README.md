@@ -10,7 +10,6 @@ Kumpulan alat, *starter kit*, panduan, dan proyek *open-source* terbaik yang ber
 Dibangun untuk membantu developer dan *indie hacker* Indonesia meluncurkan produk SaaS atau *microservices* dengan arsitektur *serverless* dan biaya server Rp 0.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![HitCount](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fridloabelian%2Fawesome-cloudflare-id&count_bg=%23F38020&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Pengunjung&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
 
@@ -31,7 +30,7 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [💬 WhatsApp & Chatbot](#-whatsapp--chatbot)
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
 - [📈 Analytics & Marketing](#-analytics--marketing)
-- [📱 Meta & Social Media Automation](#-meta--social-media-automation)
+- [📱 Social Media Automation](#-social-media-automation)
 - [📝 Blogging & CMS](#-blogging--cms)
 - [🤖 AI & Agen (MCP)](#-ai--agen-mcp)
 - [🔗 Shortlink & Pastebin](#-shortlink--pastebin)
@@ -96,15 +95,19 @@ Ganti langganan *tools* pemasaran yang mahal (seperti Mailchimp atau Plausible) 
 | [relay](https://github.com/YuriCrystal/relay) | *Link shortener* khusus pemasaran dengan analitik klik, *A/B split*, penargetan geolokasi, dan integrasi FB Pixel / GA4 untuk *retargeting* tanpa *cookie*. Berjalan di D1. |
 | [cloudflare-workers-async-google-analytics](https://github.com/SukkaW/cloudflare-workers-async-google-analytics) | Percepat *loading* situs web Anda dengan memindahkan eksekusi skrip pelacakan Google Analytics ke sisi *server* (di Cloudflare Worker) alih-alih di *browser* pengunjung. |
 
-## 📱 Meta & Social Media Automation
-Alat bantu operasional *digital advertising* dan automasi media sosial (pengganti ManyChat / Zapier).
+## 📱 Social Media Automation
+Alat bantu operasional *digital advertising*, automasi media sosial (pengganti ManyChat / Zapier), dan optimasi tautan untuk berbagai *platform*.
 
 | Nama | Deskripsi |
 |------|-----------|
+| [inapp-escape](https://github.com/deepthix/inapp-escape) | Paksa tautan di bio TikTok/Instagram terbuka di *browser* asli pengunjung (Chrome/Safari), bukan di dalam *in-app browser* yang sering bermasalah. |
+| [tiktok-ai-agent](https://github.com/stivenrosales/tiktok-ai-agent) | Asisten AI (Gemini) yang berjalan di Workers untuk membalas *Direct Message* (DM) TikTok secara otomatis, terintegrasi dengan ManyChat. |
+| [yt-deeplink](https://github.com/Adam-s-Builder-Club/yt-deeplink) | Pengganti *Smartlink* berbayar. Arahkan pengunjung dari TikTok/Instagram langsung ke aplikasi asli (contoh: YouTube) alih-alih membuka versi *web*. |
 | [ig-autodm-worker](https://github.com/aldoprianandi/ig-autodm-worker) | Alternatif gratis *ManyChat*. Balas komentar Instagram otomatis via DM menggunakan Official Meta API yang berjalan sepenuhnya di *serverless* Workers. |
 | [capi-gateway-template](https://github.com/pfranklinn/capi-gateway-template) | *Server-side Tracking* (CAPI Gateway) untuk Meta Ads dan Google Ads. Solusi menembus blokir Pixel di iOS/AdBlocker dengan mengirim *event* langsung dari *server* Edge. |
 | [cf-meta-leads-doi-demo](https://github.com/shreyanshmishra1113/cf-meta-leads-doi-demo) | Menangkap *webhook* dari **Meta Lead Ads**, memproses *Double Opt-In* email, dan menyimpannya menggunakan Cloudflare KV/Locks. |
 | [open-ads-report](https://github.com/clawnify/open-ads-report) | Dasbor analitik *cross-platform* (Meta + Google Ads) *open-source*. Menyediakan API JSON agar AI Agent Anda bisa memantau dan memberikan saran terkait performa iklan. |
+| [media-parser-proxy](https://github.com/pekaboo/media-parser-proxy) | API *Proxy* (berbasis Worker) untuk mengekstrak dan mengunduh video tanpa *watermark* dari platform seperti TikTok, Douyin, dan Bilibili. |
 
 ## 📝 Blogging & CMS
 Alternatif gratis untuk WordPress yang lari secepat kilat di infrastruktur Edge.
