@@ -24,6 +24,7 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [🗄️ Database & ORM](#️-database--orm)
 - [🖼️ Hosting Gambar (Image Hosting)](#️-hosting-gambar-image-hosting)
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
+- [📈 Analytics & Marketing](#-analytics--marketing)
 - [📝 Blogging & CMS](#-blogging--cms)
 - [🤖 AI & Agen (MCP)](#-ai--agen-mcp)
 - [🔗 Shortlink & Pastebin](#-shortlink--pastebin)
@@ -67,6 +68,16 @@ Layanan untuk menerima atau meneruskan email, sangat berguna untuk fitur validas
 | [vmail](https://github.com/oiov/vmail) | Layanan Temp-Mail (*Disposable Email*) yang di-deploy murni di Cloudflare Worker dan D1. Mendukung banyak domain. |
 | [cloudflare_temp_email](https://github.com/dreamhunter2333/cloudflare_temp_email) | Temp-mail lengkap dengan antarmuka UI. Menggunakan D1 sebagai database, mendukung *auto-reply*, banyak bahasa, dan bahkan IMAP/SMTP via lampiran. |
 | [agentic-inbox](https://github.com/cloudflare/agentic-inbox) | Proyek resmi dari Cloudflare: Klien email *self-hosted* dengan asisten AI terintegrasi, murni berjalan di Workers. AI bisa membaca dan membalas email Anda. |
+
+## 📈 Analytics & Marketing
+Ganti langganan *tools* pemasaran yang mahal (seperti Mailchimp atau Plausible) dengan infrastruktur *edge* milik Anda sendiri.
+
+| Nama | Deskripsi |
+|------|-----------|
+| [LetterDrop](https://github.com/i365dev/LetterDrop) | Sistem manajemen *Newsletter* (Email Blast) yang berjalan 100% di Cloudflare Workers. Mendukung fitur *subscribe/unsubscribe* dan *compose* email. |
+| [analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare) | Analitik web *open-source* (pengganti Google Analytics) yang menjaga privasi pengunjung. Berbasis Hono dan D1 lengkap dengan antarmuka dasbor. |
+| [relay](https://github.com/YuriCrystal/relay) | *Link shortener* khusus pemasaran dengan analitik klik, *A/B split*, penargetan geolokasi, dan integrasi FB Pixel / GA4 untuk *retargeting* tanpa *cookie*. Berjalan di D1. |
+| [cloudflare-workers-async-google-analytics](https://github.com/SukkaW/cloudflare-workers-async-google-analytics) | Percepat *loading* situs web Anda dengan memindahkan eksekusi skrip pelacakan Google Analytics ke sisi *server* (di Cloudflare Worker) alih-alih di *browser* pengunjung. |
 
 ## 📝 Blogging & CMS
 Alternatif gratis untuk WordPress yang lari secepat kilat di infrastruktur Edge.
