@@ -19,6 +19,8 @@ Dibangun untuk membantu developer dan *indie hacker* Indonesia meluncurkan produ
 
 </div>
 
+> 🗺️ **Bagian dari seri [Stack Nol Rupiah](https://github.com/ridloabelian/awesome-rp0-id)** — peta lengkap bootstrap gratisan Rp 0 untuk indie hacker Indonesia.
+
 Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem komputasi *Edge* yang sangat *powerful*. Untuk fase validasi ide atau *bootstrapping*, ekosistem ini memberikan batas gratis (Free Tier) yang sangat longgar sehingga Anda bisa membangun sistem kompleks tanpa perlu menyewa VPS.
 
 **Kriteria Kurasi:**
