@@ -26,7 +26,9 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
 - [📝 Blogging & CMS](#-blogging--cms)
 - [🤖 AI & Agen (MCP)](#-ai--agen-mcp)
+- [🔗 Shortlink & Pastebin](#-shortlink--pastebin)
 - [🌐 Proxy, DNS & Utilitas](#-proxy-dns--utilitas)
+- [🎁 Domain Gratis](#-domain-gratis)
 
 ---
 
@@ -92,6 +94,16 @@ Eksperimen kecerdasan buatan, Model Context Protocol (MCP), dan Agen Otonom di *
 | [codra](https://github.com/devarshishimpi/codra) | Sistem *AI Code Review* mandiri untuk *Pull Request* GitHub Anda. Menggunakan arsitektur serverless (Workers, Queues, Hyperdrive, Workers AI). |
 | [zenith-image-generator](https://github.com/WuMingDao/zenith-image-generator) | Antarmuka web (UI) untuk *AI Image Generator* multi-provider yang bisa langsung di-deploy ke Cloudflare Pages. |
 
+## 🔗 Shortlink & Pastebin
+Ganti Bitly atau Pastebin berbayar dengan milik Anda sendiri yang tidak membatasi fitur kustomisasi.
+
+| Nama | Deskripsi |
+|------|-----------|
+| [Sink](https://github.com/ccbikai/Sink) | Pemendek tautan (*URL Shortener*) lengkap dengan dasbor analitik dan statistik trafik. Berjalan sepenuhnya secara *serverless*. |
+| [pastebin-worker](https://github.com/SharzyL/pastebin-worker) | Aplikasi *Pastebin* (berbagi teks/kode) *open-source*. Mendukung kata sandi pelindung dan fitur hapus otomatis setelah dibaca (*burn after reading*). |
+| [r2-explorer](https://github.com/G4brym/r2-explorer) | File Manager / *Browser* Web yang cantik untuk mengelola (melihat, *upload*, hapus) *bucket* Cloudflare R2 Anda dengan dukungan *password*. |
+| [wr.do](https://github.com/oiov/wr.do) | Sistem distribusi DNS dan pemendek tautan multi-penyewa (multi-tenant) berbasis Workers. |
+
 ## 🌐 Proxy, DNS & Utilitas
 Kumpulan alat untuk *networking*, manajemen sistem, dan produktivitas harian.
 
@@ -106,6 +118,14 @@ Kumpulan alat untuk *networking*, manajemen sistem, dan produktivitas harian.
 | [docker-cloudflare-ddns](https://github.com/oznu/docker-cloudflare-ddns) | Docker *image* untuk menyambungkan IP internet rumah (Indihome/Biznet yang IP-nya dinamis) ke domain Cloudflare secara otomatis (DDNS). |
 | [cloudflare-workers-basic-auth](https://github.com/dommmel/cloudflare-workers-basic-auth) | Beri perlindungan *password* (Basic Auth) pada situs statis apa pun hanya bermodal skrip Worker sederhana. |
 | [airtable-proxy-worker](https://github.com/portable-cto/airtable-proxy-worker) | Proxy aman untuk menggunakan Airtable sebagai database *backend* tanpa membocorkan API Key Airtable Anda ke publik. |
+
+## 🎁 Domain Gratis
+Layanan komunitas yang dikelola di atas Cloudflare untuk membagikan subdomain gratis bagi developer.
+
+| Nama | Deskripsi |
+|------|-----------|
+| [js.cool](https://github.com/willin/js.cool) | Layanan bagi-bagi subdomain `.js.cool` gratis selamanya untuk developer. Pendaftaran via *Pull Request* GitHub. |
+| [domain](https://github.com/willin/domain) | Proyek saudari dari `js.cool`, memberikan variasi subdomain `.sh.gg` dan lainnya gratis. Di-*serve* via Cloudflare DNS API. |
 
 ---
 
