@@ -27,7 +27,7 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - [🚀 Boilerplate & SaaS Starter Kit](#-boilerplate--saas-starter-kit)
 - [🗄️ Database & ORM](#️-database--orm)
 - [🖼️ Hosting Gambar (Image Hosting)](#️-hosting-gambar-image-hosting)
-- [💬 WhatsApp & Chatbot](#-whatsapp--chatbot)
+- [💬 Chatbot & Komunitas (Discord/WA/TG)](#-chatbot--komunitas-discordwatg)
 - [📧 Email Sementara & Routing](#-email-sementara--routing)
 - [📈 Analytics & Marketing](#-analytics--marketing)
 - [📱 Social Media Automation](#-social-media-automation)
@@ -66,8 +66,8 @@ Buat Imgur-mu sendiri. Simpan gambar tanpa batas *bandwidth*.
 | [imgUU](https://github.com/yestool/imgUU) | Aplikasi *upload* gambar gratis berbasis Cloudflare D1 dan R2. Terintegrasi dengan GitHub Login untuk panel adminnya. |
 | [cf-image-hosting](https://github.com/ifyour/cf-image-hosting) | Hosting gambar menggunakan layanan Telegraph (Telegram) di-*proxy* lewat Cloudflare. Gratis tanpa batas (Catatan: Hati-hati dengan privasi gambar). |
 
-## 💬 WhatsApp & Chatbot
-Jalankan *webhook* WhatsApp Business API yang stabil, tahan *traffic* tinggi, dan 100% *serverless* tanpa perlu menyewa VPS.
+## 💬 Chatbot & Komunitas (Discord/WA/TG)
+Jalankan bot Discord, Telegram, atau *webhook* WhatsApp Business API yang stabil, tahan *traffic* tinggi, dan 100% *serverless* tanpa perlu menyewa VPS.
 
 | Nama | Deskripsi |
 |------|-----------|
@@ -75,6 +75,10 @@ Jalankan *webhook* WhatsApp Business API yang stabil, tahan *traffic* tinggi, da
 | [workers-whatsapp-transcription](https://github.com/jkpe/workers-whatsapp-transcription) | Mengubah *Voice Note* (Pesan Suara) WhatsApp menjadi teks secara otomatis menggunakan model Whisper via Workers AI, lalu membalas pesannya dengan hasil transkripsi. |
 | [whatsapp-auth-service](https://github.com/leolicona/whatsapp-auth-service) | Layanan login *passwordless* atau OTP (One Time Password) menggunakan WhatsApp alih-alih SMS biasa. Berbasis Hono dan database D1. |
 | [chat-ya-wam](https://github.com/leolicona/chat-ya-wam) | Template *webhook* ringan (berbasis Hono) untuk membangun asisten AI otomatis via WhatsApp Cloud API. |
+| [cloudflare-sample-app](https://github.com/discord/cloudflare-sample-app) | Contoh aplikasi bot Discord resmi dari tim Discord untuk membangun *Slash Commands* yang ditenagai oleh Cloudflare Workers. |
+| [discord-hono](https://github.com/luisfun/discord-hono) | Pustaka (*library*) untuk mempermudah pembuatan bot Discord di Cloudflare Workers menggunakan *framework* web Hono. |
+| [cloudflare-worker-emails-to-discord](https://github.com/Tyler-OBrien/cloudflare-worker-emails-to-discord) | Teruskan email yang masuk (via Cloudflare Email Routing) langsung ke *channel* Discord Anda sebagai notifikasi. |
+| [discord-oidc-worker](https://github.com/Erisa/discord-oidc-worker) | Kunci aplikasi internal Anda dengan fitur "Login with Discord" melalui Cloudflare Access, pastikan hanya anggota *server* Discord Anda yang bisa masuk. |
 
 ## 📧 Email Sementara & Routing
 Layanan untuk menerima atau meneruskan email, sangat berguna untuk fitur validasi (OTP) akun dummy atau CRM sederhana.
