@@ -86,6 +86,11 @@ Eksperimen kecerdasan buatan, Model Context Protocol (MCP), dan Agen Otonom di *
 | [MetaReview](https://github.com/TerryFYL/metareview) | Platform meta-analisis medis/data. Menggunakan Llama 3.1 8B via Workers AI untuk ekstraksi dan pembuatan grafik (D3.js) dari PDF riset. |
 | [edgeever](https://github.com/tianma-if/edgeever) | Alternatif Evernote tanpa server dengan dukungan *native* AI Agent / MCP. |
 | [web2gem](https://github.com/Guardinary/web2gem) | Gateway ringan yang menerjemahkan API Google Gemini menjadi format yang kompatibel dengan API OpenAI. Deploy ke Cloudflare cukup dengan 1 file. |
+| [mcp-memory](https://github.com/Puliczek/mcp-memory) | Server MCP (*Model Context Protocol*) untuk menyimpan memori dan preferensi user secara persisten di Cloudflare D1 & Vectorize. |
+| [my-ax](https://github.com/acoyfellow/my-ax) | "Sistem Operasi Agen Pribadi" yang di-*self-hosted* penuh di atas Cloudflare Workers, Durable Objects, D1, dan MCP. |
+| [tutorial-cloudflare-agents-bot](https://github.com/Celebez/tutorial-cloudflare-agents-bot) | Tutorial langkah demi langkah membuat Bot Telegram yang ditenagai AI Agent (Cloudflare Workers + Pages + Bindings) tanpa API Keys eksternal. |
+| [codra](https://github.com/devarshishimpi/codra) | Sistem *AI Code Review* mandiri untuk *Pull Request* GitHub Anda. Menggunakan arsitektur serverless (Workers, Queues, Hyperdrive, Workers AI). |
+| [zenith-image-generator](https://github.com/WuMingDao/zenith-image-generator) | Antarmuka web (UI) untuk *AI Image Generator* multi-provider yang bisa langsung di-deploy ke Cloudflare Pages. |
 
 ## 🌐 Proxy, DNS & Utilitas
 Kumpulan alat untuk *networking*, manajemen sistem, dan produktivitas harian.
@@ -107,4 +112,4 @@ Jika Anda menemukan *tools* menarik lainnya atau sedang membangun *side project*
 Lisensi MIT - [Ridlo Abelian](https://github.com/ridloabelian)
 
 ---
-*Kredit: Diadaptasi dan dikurasi dari [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) dengan penyesuaian untuk ekosistem developer Indonesia.*
+*Kredit: Diadaptasi dan dikurasi dari [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) dan [Ezeafk/awesome-cloudflare-ai](https://github.com/Ezeafk/awesome-cloudflare-ai) dengan penyesuaian untuk ekosistem developer Indonesia.*
