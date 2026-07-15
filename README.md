@@ -2,10 +2,15 @@
 
 <h1 align="center">Kitab Cloudflare ⛅️ 🇮🇩<br><sub>(Stack Nol Rupiah)</sub></h1>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F38020&center=true&vCenter=true&width=600&lines=Bangun+SaaS+Modal+Rp+0;Serverless+di+Cloudflare;Senjata+Indie+Hacker+Indonesia;Tinggalkan+VPS+Tradisional" alt="Typing SVG" />
+</p>
+
 Kumpulan alat, *starter kit*, panduan, dan proyek *open-source* terbaik yang berjalan di atas infrastruktur Cloudflare (Workers, Pages, D1, R2, KV). 
 Dibangun untuk membantu developer dan *indie hacker* Indonesia meluncurkan produk SaaS atau *microservices* dengan arsitektur *serverless* dan biaya server Rp 0.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![HitCount](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fridloabelian%2Fawesome-cloudflare-id&count_bg=%23F38020&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Pengunjung&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
 
