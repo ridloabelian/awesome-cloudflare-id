@@ -19,6 +19,10 @@ Dibangun untuk membantu developer dan *indie hacker* Indonesia meluncurkan produ
 
 </div>
 
+> **Audit:** Terakhir diverifikasi **2026-07-15**. Kuota dan kebijakan dapat berubah; cek [sumber resmi](https://developers.cloudflare.com/workers/platform/limits/) sebelum implementasi.
+>
+> **Disclaimer:** Proyek komunitas independen. Tidak berafiliasi dengan atau didukung oleh Cloudflare, Inc. Cloudflare dan logonya merupakan merek dagang pemiliknya.
+
 > 🗺️ **Bagian dari seri [Stack Nol Rupiah](https://github.com/ridloabelian/awesome-rp0-id)** — peta lengkap bootstrap gratisan Rp 0 untuk indie hacker Indonesia.
 
 Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem komputasi *Edge* yang sangat *powerful*. Untuk fase validasi ide atau *bootstrapping*, ekosistem ini memberikan batas gratis (Free Tier) yang sangat longgar sehingga Anda bisa membangun sistem kompleks tanpa perlu menyewa VPS.
@@ -28,6 +32,9 @@ Cloudflare saat ini bukan sekadar CDN atau proteksi DDoS, melainkan ekosistem ko
 - Membantu menekan biaya infrastruktur (sedekat mungkin dengan Rp 0).
 - Mudah di-deploy (mendukung Terraform/Wrangler atau 1-click deploy).
 - *Open-source* dan masih aktif di-*maintain*.
+
+
+**Status kurasi:** `Official` = dikelola vendor/organisasi resmi · `Community` = proyek komunitas · `Experimental` = contoh/POC, audit sebelum produksi · `Archived` = read-only/tidak aktif. Lihat [audit katalog lengkap](CATALOG_AUDIT.md) (status, stars, last push, dan sumber README upstream; diverifikasi 2026-07-15).
 
 ---
 
@@ -83,7 +90,6 @@ Alat untuk mengelola database Edge (D1, KV) dengan lebih mudah.
 | Nama | Deskripsi |
 |------|-----------|
 | [Cloudflare-KV-Manager](https://github.com/som3canadian/Cloudflare-KV-Manager) ![](https://img.shields.io/github/stars/som3canadian/Cloudflare-KV-Manager?style=flat&label=%E2%98%85&color=F38020) | Solusi Web UI (Dashboard) dan Pustaka Python untuk manajemen Cloudflare KV yang jauh lebih lengkap dibanding bawaan *dashboard* Cloudflare. |
-| [Prisma with D1](https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1) | Dokumentasi dan *adapter* resmi untuk menggunakan ORM Prisma di atas database Cloudflare D1. |
 
 ## 🖼️ Hosting Gambar (Image Hosting)
 Buat Imgur-mu sendiri. Simpan gambar tanpa batas *bandwidth*.
